@@ -109,7 +109,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
   <ul>
-    
+    <li>From the Installation Files, download and install <b>osTicket v1.15.8.zip</b></li>
+    <li>Extract the <b>upload</b> folder from the zip file and copy the folder into the directory <b>C:\inetpub\wwwroot</b> in your VM</li>
+      <ul>
+        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/0f1b83b3-86df-450c-bd22-e9369fcacf0b" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+      </ul>
+    <li>Rename the upload folder we've copied into wwwroot to <b>osTicket</b>, then reload IIS Manager</li>
+    <li>In IIS Manager, expand the connection <b>Sites</b> then <b>Default Web Site</b> to click and highlight <b>osTicket</b>. Then, navigate to <b>Browse Folder</b> and click on <b>Browser*.80 (http)</b></li>
+    <li>The page for osTicket Installer should now pop up, if it does not, check your directories of your files and folders</li>
+      <ul>
+        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/0e213a5c-e82c-4e1c-b187-b6e53aeb9af2" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+      </ul>
+    <li>In IIS Manager, go to <b>osTicket</b> and click on <b>PHP Manager</b> and click on <b>Enable or disable extensions</b> and enable the following extensions</li>
+      <ul>
+        <li>php_imap.dll</li>
+        <li>php_intl.dll</li>
+        <li>php_opcache.dll</li>
+      </ul>
+    <li>Refresh osTicket Installer on your browser to see <b>PHP IMAP Extension</b> and <b>Intl Extensions</b> are checked signifying the extensions are installed</li>
+    <li></li>
   </ul>
 </p>
 
