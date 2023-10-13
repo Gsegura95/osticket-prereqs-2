@@ -5,11 +5,6 @@
 <h1 align = "center">osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -21,7 +16,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-
+<ol>
+  <li>Enable I.S.S. (Internet Information Services)</li>
+  <li>Install Web Platform Installer</li>
+  <li>Install MySQL and set up username and password</li>
+    <ul>
+    <li>For this tutorial, we will set up out username and password as such:</li>
+    <li>username: root</li>
+    <li>password: Password1</li>
+    </ul>
+  <li>Install C++ Redistributable</li>
+  <li>Configure permissions and instal osTicket</li>
+</ol>
 - Item 1
 - Item 2
 - Item 3
