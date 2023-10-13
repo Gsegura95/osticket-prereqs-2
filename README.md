@@ -22,17 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Install MySQL and set up username and password</li>
     <ul>
     <li>For this tutorial, we will set up out username and password as such:</li>
-    <li>username: root</li>
-    <li>password: Password1</li>
     </ul>
+      <ul>
+      <li>username: root</li>
+      <li>password: Password1</li>
+      </ul>
   <li>Install C++ Redistributable</li>
   <li>Configure permissions and instal osTicket</li>
 </ol>
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
