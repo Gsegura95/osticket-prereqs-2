@@ -34,6 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </ol>
 
 <h2>Installation Steps</h2>
+
 <h3>Install / Enable IIS in Windows WITH CGI and Common HTTP Features</h3>
 
 <p>
@@ -43,21 +44,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Navigate the list and check the box for <b>Internet Information Services</b></li>
     <li>Expand the list for <b>Internet Information Services</b>, navigate to <b>World Wide Web Services</b> then expand that to find <b>Application Development Features</b>, expand that and check the box for <b>CGI</b>.</li>
     <li>Before closing, make sure the boxes under <b>Common HTTP Features</b> in World Wide Web Services are checked.</li>
+      <ul>
+        <li><b>Check these boxes in Turn Windows Features on or off</b></li>
+        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e770403c-5def-4c58-a2ad-24b61a859078" height="50%" width="50%" alt="Disk Sanitization Steps"/></li>
+      </ul>
+    <li>To confirm everything is set accordingly, go to your browser in your VM and type in <b>127.0.0.1</b>, it should load the page to Internet Information Services</li>
+      <ul>
+        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/b6fdbb5f-73c6-4aaf-ac8c-3e9690303d7b" height="50%" width="50%" alt="Disk Sanitization Steps"/></li>
+      </ul>
+  </ul>
+</p>
+
+
+<br />
+
+<h3>PHP Manager and Rewrite Module</h3>
+
+<p>
+  <ul>
+    <li>From the Installation Files, download <b>PHP Manager</b> (PHPManagerForIIS_V1.5.0.msi) and <b>Rewrite Module</b> (rewrite_amd64_en-US.msi) </li>
   </ul>
 </p>
 
 <p>
-<img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e770403c-5def-4c58-a2ad-24b61a859078" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<br />
-
-<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
 
-</p>
 <br />
 
 <p>
