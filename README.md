@@ -21,12 +21,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Install Web Platform Installer</li>
   <li>Install MySQL and set up username and password</li>
     <ul>
-    <li>For this tutorial, we will set up out username and password as such:</li>
-    </ul>
+    <li>For this tutorial, we will set up our username and password as such:</li>
       <ul>
       <li>username: root</li>
       <li>password: Password1</li>
       </ul>
+    </ul>
   <li>Install C++ Redistributable</li>
   <li>Configure permissions and instal osTicket</li>
 </ol>
