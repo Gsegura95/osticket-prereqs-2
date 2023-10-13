@@ -127,8 +127,43 @@ This tutorial outlines the prerequisites and installation of the open-source hel
         <li>php_opcache.dll</li>
       </ul>
     <li>Refresh osTicket Installer on your browser to see <b>PHP IMAP Extension</b> and <b>Intl Extensions</b> are checked signifying the extensions are installed</li>
-    <li></li>
+    <li>After configurations locate the php file <b>ost-sampleconfig.php</b> inside the directory <b>C:\inetpub\wwwroot\osTicket\include\</b> and rename it to <b>ost-config.php</b> because osTicket Installer needs to interact with this file</li>
+    <li>Now go to the <b>Properties</b> of the ost-config file and go to the <b>Advanced</b> settings in <b>Security</b> and <b>Disable Inheritance</b> to remove all inheritance permissions from the file (essentially making a "clean" object)</li>
+    <li>Now add a new Permission, then click on <b>Select a principal</b> and for a new object type "everyone" the click on <b>Check Names</b> to set the Group and click OK. Then check all the boxes on Basic Permissions and then click OK. Now everyone using osTicket should have full permission to use it</li>
+    <li>Head to osTicket on your browser and click on <b>Continue</b> then set your <b>System Settings</b> and <b>Admin User</b> until you get to <b>Database Settings</b></li>
+      <ul>
+        <li>For login information, you can set it to a fake email such as "yourname@helper.com", again it is recommended to have a notepad to keep your usernames and passwords on the standby</li>
+      </ul>
+    <li>From the Installation Files, download and install <b>HeidiSQL</b></li>
+      <ul>
+        <li>Go through basic setup then launch HeidiSQL and create a New Session using the username "root" and password "Password1"</li>
+        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e4be70d7-c458-4274-95bb-6f53f8ecde98" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+        <li>You should see this once connected</li>
+        <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/e04f8a37-4c5c-49da-b16b-c882470f2cdb" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+        <li>Create a Database and name it <b>osTicket</b></li>
+      </ul>
+    <li>Once connected, go back to osTicket Installer type in our username and password into the respected fields in Database Settings</li>
+      <ul>
+        <li>MySQL Database: osTicket</li>
+        <li>MySQL Username: root</li> 
+        <li>MySQL Password: Password1</li>
+      </ul>
+    <li>Click <b>Install Now</b>, osTicket should now be fully installed on your VM!</li>
+    <ul>
+      <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/f48259ba-ba8a-4bce-9cbe-a300903de8b2" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+      <li><a href = "http://localhost/osTicket/scp/login.php">Link to Help Desk Page</a></li>
+      <li><a href = "http://localhost/osTicket/">Link to End Users Page</a></li>
+    </ul>
   </ul>
 </p>
 
 <br />
+
+<h3>Clean Up</h3>
+
+<p>
+  <ul>
+    <li>Delete the <b>setup</b> folder inside your osTicket folder inside wwwroot (C:\inetpub\wwwroot\osTicket\setup)</li>
+    <li>Set the permissions of <b>ost-config.php</b> to "read only" (have only the Read and Read and Execute boxes checked)</li>
+  </ul>
+</p>
