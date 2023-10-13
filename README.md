@@ -17,7 +17,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 <ol>
-  <li>Enable I.S.S. (Internet Information Services)</li>
+  <li>Enable IIS in I.S.S.</li>
   <li>Install Web Platform Installer</li>
   <li>Install MySQL and set up username and password</li>
     <ul>
