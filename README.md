@@ -69,7 +69,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
       <ul>
         <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/04098ba9-26d5-4291-9431-7d2fd3200fc4" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
       </ul>
-    <li>From the Installation Files, download the zip file<b>PHP 7.3.8</b> (php-7.3.8-nts-Win32-VC15-x86.zip) then unzip the contents into PHP folder we've made (C:\ PHP)</li>
+    <li>From the Installation Files, download the zip file <b>PHP 7.3.8</b> (php-7.3.8-nts-Win32-VC15-x86.zip) then unzip the contents into PHP folder we've made (C:\ PHP)</li>
       <ul>
         <li><b>NOTE:</b> If a warning sign appears in the downloading icon in your browser, it means the Microsoft Defender Smartscreen in your VM is preventing you from downloading the zip file. If this happens, navigate the file your downloads and click on <b>Keep</b></li>
         <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/2be3abda-6e52-44df-b253-ab4006c199cc" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
@@ -90,7 +90,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
   <ul>
-    <li></li>
+    <li>Open <b>Internet Information Services (IIS) Manager</b> and run it as Administrator</li>
+    <ul>
+      <li><b>PHP Manager</b> and <b>URL Rewrite</b> should be found in our IIS Manager due to the PHP Manager and Rewrite Modules files we have downloaded initially </li>
+      <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/8392f072-ba16-43db-898e-aa807c93d4f3" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+    </ul>
+    <li>Go to <b>PHP Manager</b> and click on <b>Register new PHP Version</b>, set the directory to the <b>php-cgi</b> file found in the PHP folder we've set in C Drive (C:\PHP)</li>
+    <ul>
+      <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/640439ed-5a37-470d-9451-836176f74ff8" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+    </ul>
+    <li>Optional but Recommened: Refresh the IIS Manager Server by going to <b>Actions</b> and under <b>Manage Server</b> click on <b>Restart</b></li>
+  </ul>
+</p>
+
+<br />
+
+<h3>Installing osTicket</h3>
+
+<p>
+  <ul>
+    
   </ul>
 </p>
 
