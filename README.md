@@ -35,9 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 <h3>Install / Enable IIS in Windows WITH CGI and Common HTTP Features</h3>
-<p>
-![image](https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/ee3de2c5-88b5-4a96-877a-3c7444a1a4b6)
-</p>
+
 <p>
   <ul>
     <li>In your VM, go to the <b>Control Panel</b> and head to <b>Programs</b>. </li>
@@ -47,6 +45,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Before closing, make sure the boxes under <b>Common HTTP Features</b> in World Wide Web Services are checked.</li>
   </ul>
 </p>
+
+<p>
+![image](https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/7d9519b2-f13a-45ab-b9d1-978b47b3ba64)
+</p>
+
 <br />
 
 <p>
