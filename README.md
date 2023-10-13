@@ -31,6 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </ul>
   <li>Install C++ Redistributable</li>
   <li>Configure permissions and install osTicket</li>
+  <li>(OPTIONAL) Have a notepad on standby to keep track of usernames and passwords for this tutorial</li>
 </ol>
 
 <h2>Installation Steps</h2>
@@ -58,36 +59,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
-<h3>PHP Manager and Rewrite Module</h3>
+<h3>Installing Files for osTicket</h3>
 
 <p>
   <ul>
+    <li><b>NOTE:</b> Depending on your VM CPU and Google Drive's virus scanning system, downloads will be rather <i>slow</i></li>
     <li>From the Installation Files, download <b>PHP Manager</b> (PHPManagerForIIS_V1.5.0.msi) and <b>Rewrite Module</b> (rewrite_amd64_en-US.msi) </li>
-      <ul>
-        <li>Since these files come from a Google Drive, downloads will be slow since the Google Drive will attempt to virus scan them.</li>
-      </ul>
     <li>Create a Folder in your VM's C Drive and name it <b>PHP</b></li>
       <ul>
         <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/04098ba9-26d5-4291-9431-7d2fd3200fc4" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
       </ul>
-    <li>From the Installation Files, download the zip file<b>PHP 7.3.8</b> (php-7.3.8-nts-Win32-VC15-x86.zip) then unzip the contents into PHP folder we've made(C:\ PHP)</li>
+    <li>From the Installation Files, download the zip file<b>PHP 7.3.8</b> (php-7.3.8-nts-Win32-VC15-x86.zip) then unzip the contents into PHP folder we've made (C:\ PHP)</li>
       <ul>
         <li><b>NOTE:</b> If a warning sign appears in the downloading icon in your browser, it means the Microsoft Defender Smartscreen in your VM is preventing you from downloading the zip file. If this happens, navigate the file your downloads and click on <b>Keep</b></li>
         <li><img src="https://github.com/ColtonTrauCC/osticket-prereqs/assets/147654000/2be3abda-6e52-44df-b253-ab4006c199cc" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
       </ul>
+    <li>From the Installation Files, download and install <b>VC_redist.x86.exe</b></li>
+    <li>From the Installation Files, download and install <b>MySQL 5.5.62</b> (mysql-5.5.62-win32.msi)</li>
+      <ul>
+        <li>After installing, launch the <b>Configuration Wizard</b></li>
+        <li>Check <b>Install As Window Service</b>, for this tutorial our Service Name will stay as <b>MySQL</b></li>
+        <li>Check <b>Modify Security Settings</b> and for this tutorial we'll set the password as <b>Password1</b></li>
+      </ul>
   </ul>
-</p>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<h3>Setting up IIS and PHP</h3>
 
+<p>
+  <ul>
+    <li></li>
+  </ul>
 </p>
+
 <br />
