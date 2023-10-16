@@ -7,13 +7,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+<ul>
+  <li>Microsoft Azure (Virtual Machines/Compute)</li>
+  <li>Remote Desktop</li>
+  <li>Internet Information Services (IIS)</li>
+</ul>
+
+</br>
 
 <h2>Operating Systems Used </h2>
+<ul>
+  <li>Windows 10 (21H2)</li>
+</ul>
 
-- Windows 10</b> (21H2)
+</br>
 
 <h2>List of Prerequisites</h2>
 <ol>
