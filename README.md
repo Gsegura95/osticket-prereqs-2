@@ -174,3 +174,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Set the permissions of <b>ost-config.php</b> to "read only" (have only the Read and Read and Execute boxes checked)</li>
   </ul>
 </p>
+
+<h2 align = "left">Next Tutorial - <a href="https://github.com/ColtonTrauCC/post-install-config">Post-Install Configuration for osTicket</a></h2>
