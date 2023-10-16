@@ -175,4 +175,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </ul>
 </p>
 
-<h2 align = "left">Next Tutorial - <a href="https://github.com/ColtonTrauCC/post-install-config">Post-Install Configuration for osTicket</a></h2>
+<br />
+
+<h3 align = "right">Next Tutorial - <a href="https://github.com/ColtonTrauCC/post-install-config">Post-Install Configuration for osTicket</a></h3>
